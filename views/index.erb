@@ -1,0 +1,15 @@
+<form action="/calculate" method="post">
+  <input type="text" name="x">
+  <select name="operation">
+    <option value="add">+</option>
+    <option value="subtract">-</option>
+    <option value="multiply">*</option>
+    <option value="divide">/</option>
+  </select>
+  <input type="text" name="y">
+  <input type="submit" value="Calculate">
+</form>
+
+<% if @result %>
+  <p>Result: <%= @result %></p>
+<% end %>
