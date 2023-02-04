@@ -16,3 +16,13 @@ Basic Ruby Calculator application built to check the deployment and working of r
 - run `bundle install`
 - run `ruby app.rb` 
 - It will start the server on `localhost:4567`
+
+### File Structure 
+- `app.rb`: This is the main file that runs the `Sinatra` application. It contains the code for defining the routes, handling HTTP requests, and rendering the HTML templates.
+
+- `views/index.erb`: This is the HTML template for the calculator page. It contains the HTML code for the form, the result display, and the error display. The template uses ERB (Embedded Ruby) syntax to dynamically display the result and error messages.
+
+- `calculator.rb`: This file contains the code for the Calculator class, which performs the calculations.
+
+- `Gemfile`: This file lists the dependencies for the Sinatra application, including the sinatra gem and any other gems you might need.
+
